@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; background: #f4f6f8; color: #222; }
+.contenedor { width: 90%; max-width: 1100px; margin: 40px auto; }
+header { background: #1f2937; color: white; padding: 30px; border-radius: 12px; margin-bottom: 20px; }
+header h1 { margin: 0 0 8px; }
+header p { margin: 0; opacity: .85; }
+.formulario, .tabla-seccion { background: white; padding: 25px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 3px 12px rgba(0,0,0,.08); }
+.campo { display: flex; flex-direction: column; margin-bottom: 15px; }
+.campo label { font-weight: bold; margin-bottom: 6px; }
+.campo input { padding: 11px; border: 1px solid #ccc; border-radius: 6px; font-size: 15px; }
+.botones-formulario { display: flex; gap: 10px; }
+button { border: none; border-radius: 6px; padding: 11px 16px; cursor: pointer; background: #2563eb; color: white; font-weight: bold; }
+button:hover { opacity: .9; }
+.secundario { background: #6b7280; }
+.eliminar { background: #dc2626; }
+.editar { background: #16a34a; margin-right: 5px; }
+.titulo-tabla { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
+.tabla-responsive { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 12px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #f3f4f6; }
+#mensaje { font-weight: bold; }
+.oculto { display: none; }
